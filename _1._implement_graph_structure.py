@@ -13,5 +13,5 @@ class Neuron:
     for n in self.inbound_neurons:
       n.outbound_neurons.append(self)
       
-    # Initialize a calculated value
+    #  Initialize a calculated value
     self.value = None
