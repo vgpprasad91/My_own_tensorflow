@@ -1,4 +1,4 @@
-class neuron:
+class Neuron:
   
   #initialite all the values using __init__ function
   def __init__(self,inbound_neurons=[]):
