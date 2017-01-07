@@ -12,3 +12,6 @@ class Neuron:
     # For each inbound neuron here, add this neuron as an outbound neuron there
     for n in self.inbound_neurons:
       n.outbound_neurons.append(self)
+      
+    # Initialize a calculated value
+    self.value = None
